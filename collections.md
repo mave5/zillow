@@ -6,5 +6,5 @@ Misc
   - logerror=log(Zestimate)-log(SalePrice)
 
 ### dataset
-* train_2016.csv: 90811 rows, three columns (parcelid	logerror	transactiondate)
+* train_2016.csv: 90811 rows, three columns (parcelid, logerror,	transactiondate)
 
