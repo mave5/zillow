@@ -8,7 +8,8 @@ Misc
 - Final round: predict the logerror for the months in Fall 2017.  
 
 ### dataset
-* train_2016.csv: transactions file with 90811 rows, three columns (parcelid, logerror,	transactiondate)
+* train_2016.csv: transactions file with 90,811 rows, three columns (parcelid, logerror,	transactiondate)
+* train_2016_v2.csv: outliers were removed, new shape (90275, 3)
 * The train data has all the transactions before October 15, 2016, plus some of the transactions after October 15, 2016.
 * The test data in the public leaderboard has the rest of the transactions between October 15 and December 31, 2016.
 * properties_2016.csv: list of all propperties in 2016 with their home features, 2,985,217 rows and 58 columns
