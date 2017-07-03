@@ -4,7 +4,7 @@
 Misc
 - Goal: predict the log-error between Zillow's Zestimate and the actual sale price
   - logerror=log(Zestimate)-log(SalePrice)
-  - evalutation metric: mean square error
+  - evalutation metric: mean absolute error (mae)
 - First round: predict 6 time points for all properties: October 2016 (201610), November 2016 (201611), December 2016 (201612), October 2017 (201710), November 2017 (201711), and December 2017 (201712). 
 - Final round: predict the logerror for the months in Fall 2017.  
 
